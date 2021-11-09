@@ -8,6 +8,8 @@ const Form = (props) => {
       [e.target.name]: e.target.value,
     });
   };
+
+
   return (
     <form>
       <div className="form-group">
@@ -31,6 +33,8 @@ const Form = (props) => {
         <input
           onChange={onChange} type="password" id="confirmPassword" name="confirmPassword"/>
       </div>
+
+
     </form>
   );
 };

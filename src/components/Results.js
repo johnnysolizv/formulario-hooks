@@ -5,7 +5,7 @@ const Results = (props) => {
     const { firstName, lastName, email, password, confirmPassword} = props.data;
 
     return (
-        <div>
+        <div className="data">
             <h1>Results</h1>
             <p>First Name: {firstName}</p>
             <p>Last Name: {lastName}</p>
